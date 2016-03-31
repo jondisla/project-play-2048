@@ -8,8 +8,8 @@ from selenium.webdriver.common.keys import Keys
 def play2048( times ):
     #TODO: write code in this function that:
     # 1. opens a game of 2048 from the URL: https://gabrielecirulli.github.io/2048/
-    import webbrowser
-    webbrowser.open('https://gabrielecirulli.github.io/2048/')
+    browser = webdriver.Firefox()
+    browser.get('https://gabrielecirulli.github.io/2048/')
     
     # 2. uses the parameter 'times' to determine how many times your code will try to play the game
 
