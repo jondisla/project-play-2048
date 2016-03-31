@@ -22,7 +22,7 @@ def play2048( times ):
 
         elem = browser.find_element_by_class_name('score-container')
         print('You scored:')
-        print(elem.txt)
+        print(elem.text)
     
     # 3. for each 'time', press these keys in this order: UP, RIGHT, DOWN, LEFT
     # 4. print the final score after all tries to the screen
